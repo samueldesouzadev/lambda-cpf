@@ -15,7 +15,7 @@ public class AutenticacaoCPFHandler implements RequestHandler<APIGatewayProxyReq
 
         Map<String, String> response = new HashMap<>();
         if (cpf == null || !cpf.matches("\\d{11}")) {
-            response.put("message", "CPF inválido");
+            response.put("message", "CPF inválido - TESTANDO QUE MEU PROJETO É NOTA 10");
             return createResponse(400, response);
         }
 
