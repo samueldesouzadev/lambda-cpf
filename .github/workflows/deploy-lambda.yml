@@ -36,4 +36,4 @@ jobs:
         run: |
           aws lambda update-function-code \
             --function-name AutenticacaoCPFHandler \
-            --zip-file fileb://target/<nome-do-seu-jar>.jar
+            --zip-file fileb://target/lambda-cpf-1.0-SNAPSHOT.jar
